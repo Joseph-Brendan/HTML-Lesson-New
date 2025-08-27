@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.form{
+    width: 30%;
+    height: auto;
+    background-color: #f5f5f5;
+    margin: 5rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.form-title-container{
+    width: fit-content;
+    height: auto;
+}
+
+.form-title-container h1{
+    color: #222222;
+    font-size: clamp(1rem, 1vw + 0.5rem, 2rem);
+    letter-spacing: -1px;
+}
+
+.form-elements-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.2rem;
+}
+
+.input-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.input-group label{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.input-group input{
+    width: 100%;
+    height: auto;
+    padding: 1.25rem 1rem;
+    border-radius: 0.85rem;
+    outline: none;
+    border: 1px solid #e3e3e3;
+}
+
+.form-button-container{
+    width: 100%;
+    height: auto;
+}
+
+.form-button-container button{
+    width: 100%;
+    height: auto;
+    background-color: #0459f9;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1.25rem 1rem;
+    border-radius: 0.85rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
